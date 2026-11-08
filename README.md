@@ -8,25 +8,23 @@ This repository contains a four-part synthetic-data capstone: a trusted data fou
 
 Run these commands from the repository root in Windows PowerShell. The project requires Python 3.11 or newer.
 
-```powershell
-1. py -m venv .venv
-2. .\.venv\Scripts\Activate.ps1
-3. py -m pip install -r requirements.txt
-4. py generate_data.py
-5. py src/audit_raw.py
-6. py src/part_a.py
-7. py src/validate_data.py
-8. py src/run_sql.py
-9. py src/pandas_analysis.py
-10. py src/part_b.py
-11. py src/lapse_prediction.py
-12. py src/part_c.py
-13. py -m src.triage
-14. py src/evaluate_triage.py
-15. py src/part_c_reliability.py
-16. py -m src.part_d
-17. py -c "from src.policy_rag import PolicyRAG,evaluate; r=PolicyRAG(chunk_size=40,overlap=10); d=evaluate(r); a=d[d.expected_doc!='NONE']; u=d[d.expected_doc=='NONE']; print('answerable_doc',int(a.retrieved_doc.sum()),'/',len(a),'facts',int(a.fact_found.sum()),'/',len(a),'fallback',int(u.fallback.sum()),'/',len(u))"
-```
+1. `py -m venv .venv`
+2. `.\.venv\Scripts\Activate.ps1`
+3. `py -m pip install -r requirements.txt`
+4. `py generate_data.py`
+5. `py src/audit_raw.py`
+6. `py src/part_a.py`
+7. `py src/validate_data.py`
+8. `py src/run_sql.py`
+9. `py src/pandas_analysis.py`
+10. `py src/part_b.py`
+11. `py src/lapse_prediction.py`
+12. `py src/part_c.py`
+13. `py -m src.triage`
+14. `py src/evaluate_triage.py`
+15. `py src/part_c_reliability.py`
+16. `py -m src.part_d`
+17. `py -c "from src.policy_rag import PolicyRAG,evaluate; r=PolicyRAG(chunk_size=40,overlap=10); d=evaluate(r); a=d[d.expected_doc!='NONE']; u=d[d.expected_doc=='NONE']; print('answerable_doc',int(a.retrieved_doc.sum()),'/',len(a),'facts',int(a.fact_found.sum()),'/',len(a),'fallback',int(u.fallback.sum()),'/',len(u))"
 
 For Linux/macOS, replace the environment creation and activation commands with `python3 -m venv .venv` and `source .venv/bin/activate`; use `python` instead of `py` for the remaining commands.
 
