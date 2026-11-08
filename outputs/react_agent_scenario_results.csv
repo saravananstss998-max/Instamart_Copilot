@@ -1,0 +1,8 @@
+scenario_id,expected_outcome,predicted_outcome,expected_refund_inr,predicted_refund_inr,outcome_correct,amount_correct,tokens_used,tools_executed,run_id
+S1,REFUND,REFUND,128.25,128.25,True,True,897,"get_order, search_policy, calculate_refund, issue_refund",0e49e425-8f1f-4c68-a7f3-9ece01a2540d
+S2,REFUND,REFUND,135.0,135.0,True,True,897,"get_order, search_policy, calculate_refund, issue_refund",a2fdb25f-85f5-42f8-9fa3-f0c6f6244b25
+S3,ESCALATE,ESCALATE,1999.0,1999.0,True,True,884,"get_order, search_policy, calculate_refund, escalate_to_human",50b4d263-37fc-414a-9337-cf158ffcc7df
+S4,DENIED,DENIED,0.0,0.0,True,True,605,"get_order, search_policy, calculate_refund",394b4000-084b-4b8a-8338-f0e464262fbe
+S5,DENIED,DENIED,0.0,0.0,True,True,337,"get_order, search_policy",88d3d197-86be-4223-b126-a5b93bf28135
+S6,NOT_FOUND,NOT_FOUND,0.0,0.0,True,True,72,get_order,d144a8f0-016e-4bc0-a37e-95ca40552c58
+S7,FALLBACK,FALLBACK_MAX_ITERATIONS,0.0,0.0,True,True,2976,"search_policy, search_policy, search_policy, search_policy, search_policy, search_policy",dc6b0c98-0886-4bab-9849-c5389b1b3f09

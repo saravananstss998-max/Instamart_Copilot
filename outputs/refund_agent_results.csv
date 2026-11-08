@@ -1,0 +1,8 @@
+scenario_id,expected_outcome,predicted_outcome,expected_refund_inr,predicted_refund_inr,outcome_correct
+S1,REFUND,REFUND,128.25,128.25,True
+S2,REFUND,REFUND,135.0,135.0,True
+S3,ESCALATE,ESCALATE,1999.0,1999.0,True
+S4,DENIED,DENIED,0.0,0.0,True
+S5,DENIED,DENIED,0.0,0.0,True
+S6,NOT_FOUND,NOT_FOUND,0.0,0.0,True
+S7,FALLBACK,FALLBACK,0.0,0.0,True

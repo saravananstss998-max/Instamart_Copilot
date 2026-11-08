@@ -1,0 +1,20 @@
+feature,coefficient
+numeric__recency,0.19113121727371457
+categorical__favourite_category_Personal Care,0.06478790337012845
+numeric__avg_delivery_time,0.05686594885558519
+categorical__city_Pune,0.01464402693667848
+categorical__favourite_category_Electronics,0.014315647573516627
+numeric__avg_discount,0.011155495205494364
+numeric__age,0.005569516900663912
+categorical__city_Hyderabad,0.00452894561290018
+categorical__gender_unknown,0.003432290070922454
+categorical__city_Chennai,-0.0010636177413131706
+categorical__city_Mumbai,-0.008065915526118411
+numeric__tenure_days,-0.023101096167300477
+categorical__city_Delhi,-0.03859494148178477
+categorical__favourite_category_Snacks,-0.05383142403411917
+categorical__gender_male,-0.06087293816232409
+numeric__cancellation_rate,-0.0864863450593488
+categorical__favourite_category_Grocery,-0.09184243126829468
+numeric__monetary,-0.1330933537186389
+numeric__frequency,-0.6817787179783955
